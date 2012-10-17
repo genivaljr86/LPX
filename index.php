@@ -1,17 +1,12 @@
 <?php include("header.php"); ?>
-      <title><?php echo $core_nome;?>| Home</title>
-      </head>
-      <body>
-<div id="header">
-
-        <div id="topo" class="centraliza">
-        	<?php include ("topo.php"); ?>        	
-        </div>
-               
- 		<div id="navigation">
-    	       
-        </div>
-</div>
+	<title><?php echo $core_nome;?>| Home</title>
+	</head>
+		<body>
+			<div id="header">
+				<div id="topo" class="centraliza">
+        			<?php include ("topo.php"); ?>        	
+				</div>
+			</div>
       
 <div id="content"> </div>
 

@@ -1,4 +1,4 @@
- <div id="topo" class="centraliza">
+ 		<div class="centraliza">
         	<img src="<?php servidor();?>images/logo.png" id="logo">            
             <div id="redes">
             	<img src="images/contato.png" id="cont">
@@ -10,7 +10,7 @@
         <div class="separator"></div>
         <div id="navigation">
 	        <ul>
-		        <li><a href=""><img src="images/menu_principal/home_off.png" alt="" class="botao"></a></li>
+		        <li><a href=""><img src="images/menu_principal/home_off.png" alt="" class="botao current"></a></li>
 		        <li><a href=""><img src="images/menu_principal/quem-somos_off.png" alt="" class="botao"></a></li>
 		        <li><a href=""><img src="images/menu_principal/servicos_off.png" alt=""class="botao"></a></li>
 		        <li><a href=""><img src="images/menu_principal/engenharia_off.png" alt="" class="botao"></a></li>

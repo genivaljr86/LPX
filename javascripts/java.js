@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	$('.botao').hover(
+	$('.botao').not(".current").hover(
 		function(){
 			var end= $(this).attr('src');
 			var hov = end.replace('_off.png','_on.png');
@@ -11,6 +11,12 @@ $(document).ready(function(){
 			$(this).attr('src', hov);
 			}		  
 	);
+	$(".current").each(function(){
+		var end2= $(this).attr('src');
+		var hov2 = end2.replace('_off.png','_on.png');
+		$(this).attr('src', hov2);
+		
+		});
 	/* ------------ CONTATO  AJAX ---------------------*/
 	$("#contato_enviando").on('hidden',function(){
 			$("#contato_enviando p").html('<center><img src="images/loading2.gif" alt=""></center>');
