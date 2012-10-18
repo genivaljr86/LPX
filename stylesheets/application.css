@@ -20,4 +20,4 @@ body .separator{clear:both;}
 #content #home .coluna{float:left;padding:20px 0;text-align:center;margin-right:10px;}
 #content #home #conheca{width:371px;height:284px;background:url("../images/home/quemsomos_bk.png") no-repeat;}#content #home #conheca img{margin-top:214px;}
 #content #home #servprod{width:369px;height:221px;margin-top:10px;background:url("../images/home/servprod_bk.png") no-repeat;}#content #home #servprod img{margin-top:150px;}
-#content #home #face{width:305px;height:335px;background:url("../images/home/face_bk.png") no-repeat;}
+#content #home #face{width:305px;height:335px;background:url("../images/home/face_bk.png") no-repeat;}#content #home #face iframe{padding-top:80px;}
