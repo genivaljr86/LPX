@@ -26,7 +26,12 @@ function servidor(){
 		echo "http://".$core_servidor."/".$core_pasta."/";
 		}
 	else{
-		echo "http://".$core_servidor."/";
+		if($_SERVER['SERVER_NAME']=="http://talentodesign.com.br/"){
+			echo "http://".$core_servidor."/".$core_pasta."/";
+			}
+		else{
+			echo "http://".$core_servidor."/";
+			}
 		}
 	}
 //2 - Retorna o endereço em variavel
