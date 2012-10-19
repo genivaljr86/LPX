@@ -36,7 +36,7 @@
                 <div id="coluna_info">
                 <a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_historia_off.jpg" alt="" class="botao"></a>
                 <a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_missao_off.jpg" alt="" class="botao"></a>
-                <a href=""><img src="" alt="" class="botao"></a>
+                <a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/visao_e_valores_off.jpg" alt="" class="botao"></a>
                 </div>
                 
                 <div class="separator"></div>
