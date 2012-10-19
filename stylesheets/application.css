@@ -35,3 +35,5 @@ body .separator{clear:both;}
 #content #serv #conteudo{width:885px;height:785px;background:url("../images/serv/bk.png") no-repeat;}#content #serv #conteudo #texto{padding:144px 0 0 38px;}
 #content #serv #conteudo #itens{margin:52px 0 0 36px;}
 #content #quem-somos #coluna_texto{float:left;width:565px;height:780px;background:url(../images/quem-somos/background.png) repeat-x bottom;margin-top:20px;padding-bottom:10px;}#content #quem-somos #coluna_texto #texto_quemsomos{width:530px;height:560px;margin-top:10px;margin-left:20px;}
+#content #quem-somos #coluna_info{float:left;}#content #quem-somos #coluna_info #quemsomos_menu{margin-left:34px;margin-top:20px;}
+#content #quem-somos #coluna_info #quemsomos_servicos{background:url(../images/quem-somos/servicos.png);width:328px;height:370px;margin-left:34px;margin-top:20px;}#content #quem-somos #coluna_info #quemsomos_servicos #quemsomos_servicos .img{margin-top:30px;}

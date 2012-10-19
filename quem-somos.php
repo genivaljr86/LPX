@@ -34,10 +34,20 @@
                 </div>
                 
                 <div id="coluna_info">
-                <a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_historia_off.jpg" alt="" class="botao"></a>
-                <a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_missao_off.jpg" alt="" class="botao"></a>
-                <a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/visao_e_valores_off.jpg" alt="" class="botao"></a>
-                </div>
+	            	<div id="quemsomos_menu">
+	                    <ul>
+			                <li><a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_historia_off.jpg" alt="" class="botao"></a></li>
+			                <li><a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_missao_off.jpg" alt="" class="botao"></a></li>
+			                <li><a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/visao_e_valores_off.jpg" alt="" class="botao"></a></li>
+		                </ul>
+                    </div>
+                    
+                    <div id="quemsomos_servicos">
+                    <a href=""><img src="<?php servidor(); ?>images/quem-somos/clique.png" alt=""></a>
+                    </div>
+                    
+                    
+	            </div>
                 
                 <div class="separator"></div>
             </div>
