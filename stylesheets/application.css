@@ -1,224 +1,37 @@
 /* CSS crunched with Crunch - http://crunchapp.net/ */
 @import url("reset.css");
-/* Import style sheets, hiding from IE/Mac \*/
-/* End of import hide */
-/* GERAL */
-body {
-  font-family: Verdana;
-  font-size: 15px;
-  color: white;
-}
-body .centraliza {
-  width: 1000px;
-  margin: 0 auto;
-}
-body a,
-body a:active,
-body a:visited {
-  color: inherit;
-  text-decoration: none;
-}
-body a:hover {
-  color: inherit;
-  text-decoration: underline;
-}
-body .separator {
-  clear: both;
-}
-/* HEADER */
-#header {
-  background: url(../images/header.jpg) repeat-x;
-  height: 270px;
-  width: 100%;
-}
-#header #logo {
-  margin: 80px 0 0 30px;
-  float: left;
-}
-#header #redes {
-  margin-right: 34px;
-}
-#header #redes #cont {
-  float: right;
-  margin-top: 60px;
-}
-#header #redes #rede-fac {
-  float: right;
-  margin-top: 60px;
-  margin-right: -125px;
-}
-#header #redes #rede-twit {
-  float: right;
-  margin-top: 60px;
-  margin-right: -160px;
-}
-#header #topo #navigation ul {
-  list-style: none;
-  width: 935px;
-}
-#header #topo #navigation ul li {
-  float: left;
-  margin-top: 72px;
-  margin-left: 2px;
-}
-#footer {
-  background-color: #233b3f;
-  height: 200px;
-  text-align: center;
-}
-#footer #menu-footer {
-  background: url(../images/footer/menu.png) bottom no-repeat;
-  width: 572px;
-  height: 45px;
-  padding-top: 10px;
-  font-family: sans-serif;
-  font-size: 13px;
-}
-#footer #logo-footer {
-  margin-top: 46px;
-}
-#footer #texto-footer {
-  width: 380px;
-  font-family: Verdana;
-  font-size: 13px;
-  color: #3cbf35;
-}
-#footer #menu-footer ul {
-  list-style: none;
-}
-#footer #menu-footer li {
-  float: left;
-  margin-top: 10px;
-  margin-left: 15px;
-  color: #FFF;
-  font-size: 18px;
-}
-#footer #logo_talento {
-  float: right;
-  margin-top: -55px;
-}
-/* CONTEUDO */
-#content {
-  background: url(../images/background.jpg) center;
-}
-#content .corpo {
-  width: 927px;
-}
-#content #indice {
-  padding: 34px;
-  border-bottom: 8px solid #0e7314;
-  background: url("../images/indice_bk.png");
-}
-#content #indice .title {
-  margin-left: 40px;
-}
-#content #indice .nav {
-  float: right;
-  margin: 18px 46px 0 0;
-}
-#content #home #slider_area {
-  padding-top: 20px;
-}
-#content #home .coluna {
-  float: left;
-  padding: 20px 0;
-  text-align: center;
-  margin-right: 10px;
-}
-#content #home .c3 {
-  margin-right: 0px;
-}
-#content #home #conheca {
-  width: 371px;
-  height: 284px;
-  background: url("../images/home/quemsomos_bk.png") no-repeat;
-}
-#content #home #conheca img {
-  margin-top: 214px;
-}
-#content #home #servprod {
-  width: 369px;
-  height: 221px;
-  margin-top: 10px;
-  background: url("../images/home/servprod_bk.png") no-repeat;
-}
-#content #home #servprod img {
-  margin-top: 150px;
-}
-#content #home #face {
-  width: 305px;
-  height: 335px;
-  background: url("../images/home/face_bk.png") no-repeat;
-}
-#content #home #face iframe {
-  padding-top: 80px;
-}
-#content #home #falecon {
-  width: 305px;
-  height: 173px;
-  margin-top: 7px;
-  background: url("../images/home/falecon_bk.jpg") no-repeat;
-  text-align: left;
-}
-#content #home #falecon img {
-  margin: 136px 0 0 24px;
-}
-#content #home #local {
-  width: 229px;
-  height: 145px;
-  background: url("../images/home/local_bk.png") no-repeat;
-}
-#content #home #local img {
-  margin-top: 92px;
-}
-#content #home #twt {
-  width: 228px;
-  height: 362px;
-  margin-top: 8px;
-  background: url("../images/home/twt_bk.jpg") no-repeat;
-}
-#content #local #conteudo {
-  width: 943px;
-  height: 786px;
-  background: url("../images/local/bk.png") center;
-  text-align: center;
-}
-#content #local #conteudo #texto1 {
-  padding-top: 170px;
-  width: 791px;
-  text-align: left;
-}
-#content #local #conteudo iframe {
-  margin-top: 20px;
-  border: 3px solid #07f512;
-}
-#content #local #conteudo #endereco {
-  float: right;
-  margin: 51px 165px 0 0;
-  text-align: left;
-}
-#content #eng #conteudo {
-  width: 918px;
-  height: 786px;
-  background: url("../images/eng/bk.png") no-repeat;
-}
-#content #eng #conteudo #banner {
-  float: left;
-  margin: 626px 0 0 40px;
-}
-#content #eng #conteudo #texto {
-  float: left;
-  width: 504px;
-  margin: 155px 0 0 40px;
-}
-#content #serv #conteudo {
-  width: 885px;
-  height: 785px;
-  background: url("../images/serv/bk.png") no-repeat;
-}
-#content #serv #conteudo #texto {
-  padding: 144px 0 0 38px;
-}
-#content #serv #conteudo #itens {
-  margin: 52px 0 0 36px;
-}
+body{font-family:Verdana;font-size:15px;color:white;}body .centraliza{width:1000px;margin:0 auto;}
+body a,body a:active,body a:visited{color:inherit;text-decoration:none;}
+body a:hover{color:inherit;text-decoration:underline;}
+body .separator{clear:both;}
+#header{background:url(../images/header.jpg) repeat-x;height:270px;width:100%;}#header #logo{margin:80px 0 0 30px;float:left;}
+#header #redes{margin-right:34px;}#header #redes #cont{float:right;margin-top:60px;}
+#header #redes #rede-fac{float:right;margin-top:60px;margin-right:-125px;}
+#header #redes #rede-twit{float:right;margin-top:60px;margin-right:-160px;}
+#header #topo #navigation ul{list-style:none;width:935px;}#header #topo #navigation ul li{float:left;margin-top:72px;margin-left:2px;}
+#footer{background-color:#233b3f;height:200px;text-align:center;}#footer #menu-footer{background:url(../images/footer/menu.png) bottom no-repeat;width:572px;height:45px;padding-top:10px;font-family:sans-serif;font-size:13px;}
+#footer #logo-footer{margin-top:46px;}
+#footer #texto-footer{width:380px;font-family:Verdana;font-size:13px;color:#3cbf35;}
+#footer #menu-footer ul{list-style:none;}
+#footer #menu-footer li{float:left;margin-top:10px;margin-left:15px;color:#FFF;font-size:18px;}
+#footer #logo_talento{float:right;margin-top:-55px;}
+#content{background:url(../images/background.jpg) center;}#content .corpo{width:927px;}
+#content #indice{padding:34px;border-bottom:8px solid #0e7314;background:url("../images/indice_bk.png");}#content #indice .title{margin-left:40px;}
+#content #indice .nav{float:right;margin:18px 46px 0 0;}
+#content #home #slider_area{padding-top:20px;}
+#content #home .coluna{float:left;padding:20px 0;text-align:center;margin-right:10px;}
+#content #home .c3{margin-right:0px;}
+#content #home #conheca{width:371px;height:284px;background:url("../images/home/quemsomos_bk.png") no-repeat;}#content #home #conheca img{margin-top:214px;}
+#content #home #servprod{width:369px;height:221px;margin-top:10px;background:url("../images/home/servprod_bk.png") no-repeat;}#content #home #servprod img{margin-top:150px;}
+#content #home #face{width:305px;height:335px;background:url("../images/home/face_bk.png") no-repeat;}#content #home #face iframe{padding-top:80px;}
+#content #home #falecon{width:305px;height:173px;margin-top:7px;background:url("../images/home/falecon_bk.jpg") no-repeat;text-align:left;}#content #home #falecon img{margin:136px 0 0 24px;}
+#content #home #local{width:229px;height:145px;background:url("../images/home/local_bk.png") no-repeat;}#content #home #local img{margin-top:92px;}
+#content #home #twt{width:228px;height:362px;margin-top:8px;background:url("../images/home/twt_bk.jpg") no-repeat;}
+#content #local #conteudo{width:943px;height:786px;background:url("../images/local/bk.png") center;text-align:center;}#content #local #conteudo #texto1{padding-top:170px;width:791px;text-align:left;}
+#content #local #conteudo iframe{margin-top:20px;border:3px solid #07f512;}
+#content #local #conteudo #endereco{float:right;margin:51px 165px 0 0;text-align:left;}
+#content #eng #conteudo{width:918px;height:786px;background:url("../images/eng/bk.png") no-repeat;}#content #eng #conteudo #banner{float:left;margin:626px 0 0 40px;}
+#content #eng #conteudo #texto{float:left;width:504px;margin:155px 0 0 40px;}
+#content #serv #conteudo{width:885px;height:785px;background:url("../images/serv/bk.png") no-repeat;}#content #serv #conteudo #texto{padding:144px 0 0 38px;}
+#content #serv #conteudo #itens{margin:52px 0 0 36px;}
+#content #quem-somos #coluna_texto{float:left;width:565px;height:780px;background:url(../images/quem-somos/background.png) repeat-x bottom;margin-top:20px;padding-bottom:10px;}#content #quem-somos #coluna_texto #texto_quemsomos{width:530px;height:560px;margin-top:10px;margin-left:20px;}

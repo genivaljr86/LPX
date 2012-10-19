@@ -17,7 +17,7 @@
                             	</a>
                             </li>
 					        <li>
-                            	<a href="">
+                            	<a href="<?php servidor(); ?>quem-somos/">
                                 	<img src="<?php servidor(); ?>images/menu_principal/quem-somos_off.png" alt="" class="botao <?php echo $guia[2]; ?>">
                                 </a>
                             </li>

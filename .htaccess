@@ -6,4 +6,5 @@ RewriteRule ^servicos\/?$ servicos.php
 RewriteRule ^engenharia\/?$ engenharia.php
 RewriteRule ^localizacao\/?$ localizacao.php
 RewriteRule ^contato\/?$ contato.php
+RewriteRule ^quem-somos\/?$ quem-somos.php
 </IfModule>

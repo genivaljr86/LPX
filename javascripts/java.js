@@ -55,4 +55,7 @@ $(document).ready(function(){
 	/* ------------ SLIDE JCYCLE ---------------------*/	
 	$("#slider").cycle({fx:"fade"});
 	
+	/* ------------ QUEM SOMOS SCROLL ---------------------*/	
+	$('#texto_quemsomos').jScrollPane();
+	
 });
