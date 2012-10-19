@@ -3,6 +3,11 @@
 /* Import style sheets, hiding from IE/Mac \*/
 /* End of import hide */
 /* GERAL */
+body {
+  font-family: Verdana;
+  font-size: 15px;
+  color: white;
+}
 body .centraliza {
   width: 1000px;
   margin: 0 auto;
@@ -66,13 +71,16 @@ body .separator {
   width: 572px;
   height: 45px;
   padding-top: 10px;
+  font-family: sans-serif;
+  font-size: 13px;
 }
 #footer #logo-footer {
-  margin-top: 70px;
+  margin-top: 46px;
 }
 #footer #texto-footer {
   width: 380px;
   font-family: Verdana;
+  font-size: 13px;
   color: #3cbf35;
 }
 #footer #menu-footer ul {
@@ -95,6 +103,18 @@ body .separator {
 }
 #content .corpo {
   width: 927px;
+}
+#content #indice {
+  padding: 34px;
+  border-bottom: 8px solid #0e7314;
+  background: url("../images/indice_bk.png");
+}
+#content #indice .title {
+  margin-left: 40px;
+}
+#content #indice .nav {
+  float: right;
+  margin: 18px 46px 0 0;
 }
 #content #home #slider_area {
   padding-top: 20px;
@@ -156,4 +176,24 @@ body .separator {
   height: 362px;
   margin-top: 8px;
   background: url("../images/home/twt_bk.jpg") no-repeat;
+}
+#content #local #conteudo {
+  width: 943px;
+  height: 786px;
+  background: url("../images/local/bk.png") center;
+  text-align: center;
+}
+#content #local #conteudo #texto1 {
+  padding-top: 170px;
+  width: 791px;
+  text-align: left;
+}
+#content #local #conteudo iframe {
+  margin-top: 20px;
+  border: 3px solid #07f512;
+}
+#content #local #conteudo #endereco {
+  float: right;
+  margin: 51px 165px 0 0;
+  text-align: left;
 }

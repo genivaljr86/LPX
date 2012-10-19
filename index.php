@@ -1,4 +1,4 @@
-<?php include("header.php"); ?>
+<?php include("header.php"); $guia[1]="current";?>
 	<title><?php echo $core_nome;?>| Home</title>
 	</head>
 	<body>

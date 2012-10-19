@@ -8,7 +8,7 @@
     <meta charset="UTF-8" />
     <link rel="shortcut icon" href="images/favicon.png" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <link rel="stylesheet" type="text/css" href="stylesheets/application.css"/>
+    <link rel="stylesheet" type="text/css" href="<?php servidor(); ?>stylesheets/application.css"/>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
     <script>!window.jQuery && document.write('<script src="javascripts/jquery-1.7.js"><\/script>')</script>
       <!-- asynchronous google analytics
