@@ -2,7 +2,8 @@
 RewriteEngine on 
 RewriteCond %{REQUEST_FILENAME} !-d 
 RewriteCond %{REQUEST_FILENAME}\.php -f
+RewriteRule ^servicos\/?$ servicos.php
+RewriteRule ^engenharia\/?$ engenharia.php
 RewriteRule ^localizacao\/?$ localizacao.php
 RewriteRule ^contato\/?$ contato.php
-RewriteRule ^galeria\/?$ galeria.php
 </IfModule>

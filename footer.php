@@ -4,7 +4,7 @@
         		<ul>
 			       <li><a href=""><img src="<?php servidor(); ?>images/menu_footer/quem-somos_off.png" alt="" class="botao"/></a></li>
                    <li> | </li>
-			       <li><a href=""><img src="<?php servidor(); ?>images/menu_footer/servicos_off.png" alt="" class="botao"/></a></li>
+			       <li><a href="<?php servidor(); ?>servicos/"><img src="<?php servidor(); ?>images/menu_footer/servicos_off.png" alt="" class="botao"/></a></li>
 			       <li> | </li>
                    <li><a href=""><img src="<?php servidor(); ?>images/menu_footer/produtos_off.png" alt="" class="botao"/></a></li>
 			       <li> | </li>

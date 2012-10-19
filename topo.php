@@ -11,11 +11,35 @@
         			<div class="separator"></div>
 			        <div id="navigation">
 				        <ul class="centraliza">
-					        <li><a href="<?php servidor(); ?>"><img src="<?php servidor(); ?>images/menu_principal/home_off.png" alt="" class="botao <?php echo $guia[1]; ?>"></a></li>
-					        <li><a href=""><img src="<?php servidor(); ?>images/menu_principal/quem-somos_off.png" alt="" class="botao <?php echo $guia[2]; ?>"></a></li>
-					        <li><a href=""><img src="<?php servidor(); ?>images/menu_principal/servicos_off.png" alt=""class="botao <?php echo $guia[3]; ?>"></a></li>
-					        <li><a href=""><img src="<?php servidor(); ?>images/menu_principal/engenharia_off.png" alt="" class="botao <?php echo $guia[4]; ?>"></a></li>
-					        <li><a href="<?php servidor(); ?>localizacao/"><img src="<?php servidor(); ?>images/menu_principal/localizacao_off.png" alt="" class="botao <?php echo $guia[5]; ?>"></a></li>
-					        <li><a href=""><img src="<?php servidor(); ?>images/menu_principal/contato_off.png" alt="" class="botao <?php echo $guia[6]; ?>"></a></li>
+					        <li>
+                            	<a href="<?php servidor(); ?>">
+                                	<img src="<?php servidor(); ?>images/menu_principal/home_off.png" alt="" class="botao <?php echo $guia[1]; ?>">
+                            	</a>
+                            </li>
+					        <li>
+                            	<a href="">
+                                	<img src="<?php servidor(); ?>images/menu_principal/quem-somos_off.png" alt="" class="botao <?php echo $guia[2]; ?>">
+                                </a>
+                            </li>
+					        <li>
+                            	<a href="<?php servidor(); ?>servicos/">
+                                	<img src="<?php servidor(); ?>images/menu_principal/servicos_off.png" alt=""class="botao <?php echo $guia[3]; ?>">
+                                </a>
+                            </li>
+					        <li>
+                            	<a href="<?php servidor(); ?>/engenharia/">
+                                	<img src="<?php servidor(); ?>images/menu_principal/engenharia_off.png" alt="" class="botao <?php echo $guia[4]; ?>">
+                                </a>
+                            </li>
+					        <li>
+                            	<a href="<?php servidor(); ?>localizacao/">
+                                	<img src="<?php servidor(); ?>images/menu_principal/localizacao_off.png" alt="" class="botao <?php echo $guia[5]; ?>">
+                                </a>
+                            </li>
+					        <li>
+                            	<a href="">
+                                	<img src="<?php servidor(); ?>images/menu_principal/contato_off.png" alt="" class="botao <?php echo $guia[6]; ?>">
+                                </a>
+                            </li>
 				        </ul>
 			        </div>	

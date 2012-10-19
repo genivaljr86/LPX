@@ -197,3 +197,28 @@ body .separator {
   margin: 51px 165px 0 0;
   text-align: left;
 }
+#content #eng #conteudo {
+  width: 918px;
+  height: 786px;
+  background: url("../images/eng/bk.png") no-repeat;
+}
+#content #eng #conteudo #banner {
+  float: left;
+  margin: 626px 0 0 40px;
+}
+#content #eng #conteudo #texto {
+  float: left;
+  width: 504px;
+  margin: 155px 0 0 40px;
+}
+#content #serv #conteudo {
+  width: 885px;
+  height: 785px;
+  background: url("../images/serv/bk.png") no-repeat;
+}
+#content #serv #conteudo #texto {
+  padding: 144px 0 0 38px;
+}
+#content #serv #conteudo #itens {
+  margin: 52px 0 0 36px;
+}
