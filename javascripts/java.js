@@ -2,18 +2,18 @@ $(document).ready(function(){
 	$('.botao').not(".current").hover(
 		function(){
 			var end= $(this).attr('src');
-			var hov = end.replace('_off.png','_on.png');
+			var hov = end.replace('_off.','_on.');
 			$(this).attr('src', hov);
 			},
 		function(){
 			var end= $(this).attr('src');
-			var hov = end.replace('_on.png','_off.png');
+			var hov = end.replace('_on.','_off.');
 			$(this).attr('src', hov);
 			}		  
 	);
 	$(".current").each(function(){
 		var end2= $(this).attr('src');
-		var hov2 = end2.replace('_off.png','_on.png');
+		var hov2 = end2.replace('_off.','_on.');
 		$(this).attr('src', hov2);
 		
 		});

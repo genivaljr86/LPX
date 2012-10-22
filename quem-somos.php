@@ -1,4 +1,12 @@
-<?php include("header.php"); $guia[2]="current";?>
+<?php 
+include("header.php"); 
+$guia[2]="current"; 
+$pg = $_GET["pg"];
+ if($pg ==""){
+	 $pg="historia";
+	 }
+
+?>
 	<title><?php echo $core_nome;?>| Quem Somos</title>
 	</head>
 	<body>
@@ -16,8 +24,8 @@
             </div>
         	<div id="quem-somos" class="centraliza corpo">
             	<div id="coluna_texto">
-               
-                	<img src="<?php servidor(); ?>images/quem-somos/quem-somos.png" alt="">
+                  	<img src="<?php servidor(); ?>images/quem-somos/quem-somos.png" alt="">
+                    <?php if($pg == "historia"){  ?>
                 	<img src="<?php servidor(); ?>images/quem-somos/uma-historia.png" style="margin-left:20px" alt="">
                     <div id="texto_quemsomos">
 		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies suscipit ante, eget porta ipsum venenatis ac. Cras eu metus mi, at molestie odio. Nullam semper nunc et neque aliquet eleifend. Integer faucibus ullamcorper urna ut ultricies. Donec consectetur ante commodo urna sodales scelerisque. Suspendisse vulputate lacinia varius. Donec nec fermentum dolor. Praesent congue sagittis magna ac accumsan. Proin hendrerit, turpis vitae mattis tristique, dui nulla dignissim velit, vel adipiscing dolor est non nulla. Vestibulum placerat diam eget odio tincidunt suscipit. Duis elementum felis cursus dui interdum vitae imperdiet erat gravida. Mauris tempor viverra porta.</p>
@@ -30,9 +38,12 @@
 		                <br>
 		                <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
 		                <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
+                        <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
+                        <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
+                        <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
                 	</div>
+                    <?php } ?>
                 </div>
-                
                 <div id="coluna_info">
 	            	<div id="quemsomos_menu">
 	                    <ul>
@@ -45,13 +56,9 @@
                     <div id="quemsomos_servicos">
                     <a href="<?php servidor(); ?>servicos/"><img src="<?php servidor(); ?>images/quem-somos/clique.png" alt="" id="image_quem_somos"></a>
                     </div>
-                    
-                    
-	            </div>
-                
+                </div>
                 <div class="separator"></div>
             </div>
-        
         </div>
 		<div id="footer">
 			<?php include ("footer.php"); ?>
