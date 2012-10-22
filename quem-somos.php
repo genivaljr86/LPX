@@ -43,7 +43,7 @@
                     </div>
                     
                     <div id="quemsomos_servicos">
-                    <a href=""><img src="<?php servidor(); ?>images/quem-somos/clique.png" alt=""></a>
+                    <a href="<?php servidor(); ?>servicos/"><img src="<?php servidor(); ?>images/quem-somos/clique.png" alt="" id="image_quem_somos"></a>
                     </div>
                     
                     
