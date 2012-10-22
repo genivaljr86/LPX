@@ -1,3 +1,4 @@
+<?php include("core.php");  ?>
 <!DOCTYPE HTML>
 <html lang="pt-br">
 <head>
@@ -32,7 +33,7 @@
        $mail->Username = 'noreplay.talentodesign@gmail.com';
        $mail->Password = 'designer2802';
        $mail->SetFrom('noreply.talentodesign@gmail.com', 'Contato via Site');
-       $mail->AddAddress('genivaljunior86@gmail.com', 'Contato Bellos Modeladores');
+       $mail->AddAddress($core_email, 'Contato '.$core_nome);
        $mail->Subject = 'Mensagem Via Contato do Site';
 
        $body = "

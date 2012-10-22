@@ -42,7 +42,7 @@ $pg = $_GET["pg"];
                         <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
                         <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
                 	</div>
-                    <?php } ?>
+                    <?php } ?>	
                 </div>
                 <div id="coluna_info">
 	            	<div id="quemsomos_menu">
