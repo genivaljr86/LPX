@@ -27,7 +27,7 @@
                                 </a>
                             </li>
 					        <li>
-                            	<a href="<?php servidor(); ?>/engenharia/">
+                            	<a href="<?php servidor(); ?>engenharia/">
                                 	<img src="<?php servidor(); ?>images/menu_principal/engenharia_off.png" alt="" class="botao <?php echo $guia[4]; ?>">
                                 </a>
                             </li>
@@ -37,7 +37,7 @@
                                 </a>
                             </li>
 					        <li>
-                            	<a href="">
+                            	<a href="<?php servidor(); ?>contato/">
                                 	<img src="<?php servidor(); ?>images/menu_principal/contato_off.png" alt="" class="botao <?php echo $guia[6]; ?>">
                                 </a>
                             </li>

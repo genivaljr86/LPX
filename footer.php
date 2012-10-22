@@ -2,7 +2,7 @@
 	<div class="separator">
     	<div id="menu-footer" class="centraliza">
         		<ul>
-			       <li><a href=""><img src="<?php servidor(); ?>images/menu_footer/quem-somos_off.png" alt="" class="botao"/></a></li>
+			       <li><a href="<?php servidor(); ?>quem-somos/"><img src="<?php servidor(); ?>images/menu_footer/quem-somos_off.png" alt="" class="botao"/></a></li>
                    <li> | </li>
 			       <li><a href="<?php servidor(); ?>servicos/"><img src="<?php servidor(); ?>images/menu_footer/servicos_off.png" alt="" class="botao"/></a></li>
 			       <li> | </li>
@@ -10,7 +10,7 @@
 			       <li> | </li>
                    <li><a href="<?php servidor(); ?>localizacao/"><img src="<?php servidor(); ?>images/menu_footer/localizacao_off.png" alt="" class="botao"/></a></li>
 			       <li> | </li>
-                   <li><a href=""><img src="<?php servidor(); ?>images/menu_footer/contato_off.png" alt=""  class="botao"/></a></li>
+                   <li><a href="<?php servidor(); ?>contato/"><img src="<?php servidor(); ?>images/menu_footer/contato_off.png" alt=""  class="botao"/></a></li>
 		        </ul>
             </div>
       </div>
