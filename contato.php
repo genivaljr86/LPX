@@ -40,6 +40,6 @@
 		<div id="footer">
 			<?php include ("footer.php"); ?>
 		</div>
-        <?php include("contato_msg.php"); ?>
+    <?php include("contato_msg.php"); ?>
 	</body>
 </html>
