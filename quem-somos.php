@@ -43,13 +43,26 @@ $pg = $_GET["pg"];
                         <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
                 	</div>
                     <?php } ?>	
-                </div>
+                    
+                    <?php if($pg == "missao"){  ?>  
+                    <p>Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, </p>                                     
+                    
+					<?php }  ?>
+                    
+                    
+					<?php if($pg == "visao") {  ?>
+                    <p>Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, </p>
+                    
+                    <?php } ?>
+                    
+                    
+                    </div>
                 <div id="coluna_info">
 	            	<div id="quemsomos_menu">
 	                    <ul>
-			                <li><a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_historia_off.jpg" alt="" class="botao"></a></li>
-			                <li><a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_missao_off.jpg" alt="" class="botao"></a></li>
-			                <li><a href=""><img src="<?php servidor(); ?>images/quem-somos/menu/visao_e_valores_off.jpg" alt="" class="botao"></a></li>
+			                <li><a href="<?php servidor(); ?>quem-somos/pg/historia/"><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_historia_off.jpg" alt="" class="botao"></a></li>
+			                <li><a href="<?php servidor(); ?>quem-somos/pg/missao/"><img src="<?php servidor(); ?>images/quem-somos/menu/nossa_missao_off.jpg" alt="" class="botao"></a></li>
+			                <li><a href="<?php servidor(); ?>quem-somos/pg/visao/"><img src="<?php servidor(); ?>images/quem-somos/menu/visao_e_valores_off.jpg" alt="" class="botao"></a></li>
 		                </ul>
                     </div>
                     

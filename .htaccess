@@ -7,4 +7,5 @@ RewriteRule ^engenharia\/?$ engenharia.php
 RewriteRule ^localizacao\/?$ localizacao.php
 RewriteRule ^contato\/?$ contato.php
 RewriteRule ^quem-somos\/?$ quem-somos.php
+RewriteRule ^quem-somos/pg/([a-z0-9-]*)\/?$ quem-somos.php?pg=$1
 </IfModule>

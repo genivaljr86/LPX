@@ -58,4 +58,9 @@ $(document).ready(function(){
 	/* ------------ QUEM SOMOS SCROLL ---------------------*/	
 	$('#texto_quemsomos').jScrollPane();
 	
+	
+	/*---------------TWITTER-------------------*/
+
+	$("#tt").tweet();
+	
 });
