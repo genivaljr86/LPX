@@ -28,30 +28,36 @@ $pg = $_GET["pg"];
                     <?php if($pg == "historia"){  ?>
                 	<img src="<?php servidor(); ?>images/quem-somos/uma-historia.png" style="margin-left:20px" alt="">
                     <div id="texto_quemsomos">
-		                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin ultricies suscipit ante, eget porta ipsum venenatis ac. Cras eu metus mi, at molestie odio. Nullam semper nunc et neque aliquet eleifend. Integer faucibus ullamcorper urna ut ultricies. Donec consectetur ante commodo urna sodales scelerisque. Suspendisse vulputate lacinia varius. Donec nec fermentum dolor. Praesent congue sagittis magna ac accumsan. Proin hendrerit, turpis vitae mattis tristique, dui nulla dignissim velit, vel adipiscing dolor est non nulla. Vestibulum placerat diam eget odio tincidunt suscipit. Duis elementum felis cursus dui interdum vitae imperdiet erat gravida. Mauris tempor viverra porta.</p>
+		                <p>A LPX Engenharia é uma sólida empresa que atua no setor de obras civis em geral, desde a restauração de prédios até a construção ferrovias, rodovias e edifícios. Estamos no mercado há mais de 20 anos e estivemos a frente de importantes obras da capital e do interior do estado, como a restauração do Campus Universitário do IFPA, da Fundação Tancredo Neves (CENTUR), na construção da Cadeia Pública de Parauapebas e das Quadras Poliesportivas de Mocajuba.</p>
 		                <br>
-		                <p>Pellentesque et lacus non nisi pharetra iaculis. Maecenas tellus dolor, iaculis quis dictum a, ultrices convallis ligula. Aliquam posuere, nunc ac sagittis ultrices, augue mi adipiscing massa, quis dignissim mi eros sit amet libero. In tristique urna metus, in hendrerit lorem. Mauris congue rutrum porttitor. Cras tempus lorem sed dolor aliquam dapibus. Maecenas vulputate dolor id sem dapibus molestie.</p>
+		                <p>Somos 30 profissionais, entre engenheiros, técnicos e administradores que estão empenhados em preparar e oferecer os melhores projetos civis, sempre primando pela qualidade e eficiência que nossos clientes merecem. Presente em Belém e em mais sete municípios do interior, e agora caminhando em direção a Cametá, a LPX Engenharia é certificada como Nível A, segundo o Programa Brasileiro de Qualidade e Produtividade de Habitat, e isso somente foi possível graças ao nosso empenho e ao apoio de nossas parceiras Casa dos Tubos, Centro Elétrico, IT Center, Amazônia Ferro e Aço, Aço Belém, Oplima e Tubo e Telha, que tem nos ajudado a trilhar este caminho de sucesso.</p>
 		                <br>
-		                <p>O pedaço mais habitual do Lorem Ipsum usado desde os anos 1500 é reproduzido abaixo para os interessados. As secções 1.10.32 e 1.10.33 do "de Finibus Bonorum et Malorum" do Cícero também estão reproduzidos na sua forma original, acompanhados pela sua tradução em Inglês, versões da tradução de 1914 por H. Rackham.</p>   
+		                <p>A história da LPX Engenharia ao longo dos seus mais de 20 anos foi construída com base nos valores que permitem a evolução de nossa empresa. Nosso maior compromisso é prestar o melhor serviço de engenharia possível, valorizando nossas equipes e, principalmente, preservando o espaço ambiental em que desenvolvemos nossos projetos. A LPX não está ligada apenas à construção e à edificação de prédios e reformas, mas está principalmente dedicada à qualidade dos serviços prestados. E foi graças a esta importância que conquistamos a certificação da SAS Certificadora, confirmando nosso profissionalismo e responsabilidade social.</p>   
 		                <br>
-		                <p>Integer dignissim nulla eget diam pretium quis aliquet felis suscipit. Integer aliquet massa nec orci dignissim quis tincidunt magna vehicula. Integer hendrerit tincidunt nisl, ut vulputate velit hendrerit vel. Aliquam ultricies massa a nulla gravida et pretium ante sagittis. Vestibulum laoreet commodo odio, in bibendum dui mollis nec. Aliquam erat volutpat. Cras ac dolor nec elit feugiat vehicula. Sed vulputate nunc vitae nisi rhoncus porta. Proin a est vel nibh laoreet commodo semper et urna. Ut nec eleifend dolor.</p>  
-		                <br>
-		                <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
-		                <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
-                        <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
-                        <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
-                        <p>Praesent at ante tellus. Proin sed libero nisl, non blandit est. Aliquam dictum nibh sit amet nunc varius dictum. Cras et aliquet dui. Curabitur tempus nibh mollis nulla luctus nec placerat nunc scelerisque. Donec luctus dapibus sodales. Curabitur a lacus id mi ornare viverra. In lectus eros, convallis in gravida sit amet, egestas suscipit ante. Fusce leo urna, fermentum id adipiscing et, adipiscing ut nunc.</p>
+		                <p>Nós, da LPX Engenharia, trabalhamos em prol da excelência. E essa excelência permitirá a confiança e transparência em nossos projetos, o cuidado com nossos funcionários, respeito ao meio ambiente e qualidade em todos os nossos empreendimentos.</p> 
+                        <br>		                
                 	</div>
                     <?php } ?>	
                     
                     <?php if($pg == "missao"){  ?>  
-                    <p>Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, Pagina teste missão, </p>                                     
+                    <div id="texto_quemsomos">
+                    <p> Nossa Missão</p>
+                    <br>
+                    	<p>Alcançar uma posição cada vez mais destacada no mercado de engenharia civil do estado do Pará, atendendo as necessidades dos clientes, desenvolvendo fidelidade, agregando valores como qualidade e confiabilidade aos nossos empreendimentos.</p>
+                   			<br>
+                    </div>             
                     
-					<?php }  ?>
-                    
-                    
+					<?php }  ?>                    
 					<?php if($pg == "visao") {  ?>
-                    <p>Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, Pagina teste visão, </p>
+                    <div id="texto_quemsomos">
+                    <p> Nossa Visão</p>
+                    <br>
+	                    <p>Ser a empresa líder no ramo da engenharia civil no estado do Pará, ser reconhecida pela qualidade dos empreendimentos e de seus funcionários, comprometida com a ética, a segurança e o meio ambiente.</p>
+	                   		<br>
+	                    <p>Valores</p>
+	                    	<br>
+	                    <p>Nossos principais valores são: responsabilidade, agilidade, eficácia, comprometimento, integridade, crescimento, rentabilidade e satisfação.</p>
+                    </div>
                     
                     <?php } ?>
                     
